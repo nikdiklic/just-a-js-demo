@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=1920, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Just a js demo</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="card">
+        <h2 class="title">Shopping list</h2>
+        <div class="inputs">
+          <input type="text" id="add" />
+          <button onclick="addNew()">Add new item</button>
+        </div>
+        <ul class="list">
+          <li id="item-0">
+            <div class="item">
+              <span>Item</span>
+              <div class="buttons">
+                <button onclick="done(0)">Done</button
+                ><button onclick="del(0)">Delete</button>
+              </div>
+            </div>
+          </li>
+          <li id="item-1">
+            <div class="item">
+              <span>Item sadasd</span>
+              <div class="buttons">
+                <button onclick="done(1)">Done</button
+                ><button onclick="del(1)">Delete</button>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
