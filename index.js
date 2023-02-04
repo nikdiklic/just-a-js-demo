@@ -42,6 +42,7 @@ const del = (id) => {
   list.removeChild(item);
 };
 
+
 const done = (id) => {
   const item = document.querySelector("#item-" + id);
   const span = item.children[0].children[0];
